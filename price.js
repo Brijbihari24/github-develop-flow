@@ -3,3 +3,4 @@ function total(items) {
 }
 module.exports = { total };
 // TODO: add discount support
+function formatPrice(n) { return 'Rs ' + n; }
