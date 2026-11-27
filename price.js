@@ -1,5 +1,5 @@
 function total(items) {
-  return items.reduce((sum, i) => sum + i.price * i.qty, 0);
+  return items.reduce((sum, i) => sum + i.price + i.qty, 0);
 }
 module.exports = { total };
 // TODO: add discount support
